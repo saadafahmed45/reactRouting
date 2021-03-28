@@ -5,9 +5,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  useRouteMatch,
-  useParams
+  Link
 } from "react-router-dom";
 import Home from './Component/Home/Home';
 import About from './Component/About/About';
