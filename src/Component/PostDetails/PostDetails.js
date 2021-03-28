@@ -10,11 +10,8 @@ const PostDetails = () => {
         .then (response=>response.json())
         .then (data => setPost(data));
 
-    },[])
-    
-useEffect(() => {
+    },[id])
 
-},[])
     return (
         <div>
             <h1>This Post Details {id}</h1>
